@@ -1,10 +1,10 @@
 //include this for use the LDR.h library
 //the library have 3 function:
-//                            -initialize:write where the LDR are and in wich analog pin
-//                            -valueLdr:return the analog input of the LDR (from 0 to 1023)
-//                            -valueVLdr:return the value of the tension in the LDR (as a float, to 0.00 V from 5.00)
-//   happy coding guy!                                                           
-//                       for any upgrade or problem, write me to davidebrag@gmail.com
+//-initialize:write where the LDR are and in wich analog pin
+//-valueLdr:return the analog input of the LDR (from 0 to 1023)
+//-valueVLdr:return the value of the tension in the LDR (as a float, to 0.00 V from 5.00)
+//happy coding guy!                                                           
+//for any upgrade or problem, write me to davidebrag@gmail.com
 #include <LDR.h>
 #include "LDR.h"
 LDR ldr1;
